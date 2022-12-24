@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSMeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--class pode ser usado para varios elementos, id somente para um único-->
+
+<body>
+    <!--header: Semantica de cabeçalho -->
+    <header>
+        <!--div:Bloco, divisória-->
+        <div class="tessmeta-logo-container">
+            <!--src:(source) Nome do arquivo; alt:(alternative) Caso não apareça o src -->
+            <img src="logo.svg" alt="tessMeta">
+            <!--h1,h2,h3... Usado para titulos-->
+            <h1>TESSMeta</h1>
+            <p>Desenvolvido por
+                <!--a href: link-->
+                <a href="">#FDev</a>
+            </p>
+        </div>
+    </header>
+    <!--main: Semantica de principal, Divisória-->
+    <main>
+        <!--Section: Delimitar-->
+        <section id="sales">
+            <div class="tessmeta-container">
+                <div class="tessmeta-card">
+                    <h2 class="tessmeta-sales-title">Vendas</h2>
+                    <div>
+                        <div class="tessmeta-form-control-container">
+                            <input class="tessmeta-form-control" type="text">
+                        </div>
+                        <div class="tessmeta-form-control-container">
+                            <input class="tessmeta-form-control" type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <!--Tabela-->
+                        <table class="tessmeta-sales-table">
+                            <!--Cabeçalho-->
+                            <thead>
+                                <!--tr: Linha da tabela-->
+                                <tr>
+                                    <!--Linha de titulo-->
+                                    <th class="show992"> ID</th>
+                                    <th class="show576">Data</th>
+                                    <th>Vendedor</th>
+                                    <th class="show992">Visitas</th>
+                                    <th class="show992">Vendas</th>
+                                    <th>Total</th>
+                                    <th>Notificar</th>
+                                </tr>
+                            </thead>
+                            <!--Corpo-->
+                            <tbody>
+                                <tr>
+                                    <td class="show992">#1111</td>
+                                    <td class="show576">11/11/2011</td>
+                                    <td>Dovahkii</td>
+                                    <td class="show992">99</td>
+                                    <td class="show992">99</td>
+                                    <td>R$ 9.999,99</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1211</td>
+                                    <td class="show576">12/11/2011</td>
+                                    <td>Lydia</td>
+                                    <td class="show992">21</td>
+                                    <td class="show992">12</td>
+                                    <td>R$ 8.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1311</td>
+                                    <td class="show576">13/11/2011</td>
+                                    <td>Rayya</td>
+                                    <td class="show992">31</td>
+                                    <td class="show992">13</td>
+                                    <td>R$ 7.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1411</td>
+                                    <td class="show576">14/11/2011</td>
+                                    <td>Iona</td>
+                                    <td class="show992">41</td>
+                                    <td class="show992">14</td>
+                                    <td>R$ 6.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1511</td>
+                                    <td class="show576">15/11/2011</td>
+                                    <td>Gregor</td>
+                                    <td class="show992">51</td>
+                                    <td class="show992">15</td>
+                                    <td>R$ 5.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1611</td>
+                                    <td class="show576">16/11/2011</td>
+                                    <td>Jordis</td>
+                                    <td class="show992">61</td>
+                                    <td class="show992">16</td>
+                                    <td>R$ 4.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1711</td>
+                                    <td class="show576">17/11/2011</td>
+                                    <td>Valdimar</td>
+                                    <td class="show992">71</td>
+                                    <td class="show992">17</td>
+                                    <td>R$ 3.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#1711</td>
+                                    <td class="show576">18/11/2011</td>
+                                    <td>Aela</td>
+                                    <td class="show992">81</td>
+                                    <td class="show992">18</td>
+                                    <td>R$ 12.000,00</td>
+                                    <td>
+                                        <div class="tessmeta-red-btn-container">
+                                            <div class="tessmeta-red-btn">                                            
+                                                <img src="notification-icon.svg" alt="Notificar">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
